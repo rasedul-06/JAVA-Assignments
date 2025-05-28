@@ -1,8 +1,8 @@
 package Assignment3;
-
+//User input
 import java.util.Scanner;
 
-public class Product {
+public class userinput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
