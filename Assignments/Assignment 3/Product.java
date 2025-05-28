@@ -6,21 +6,21 @@ public class userinput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the id : ");
+        System.out.print("Enter the id : ");
         int id = scanner.nextInt();
         scanner.nextLine();                             // Consume the leftover newline
 
-        System.out.println("Enter the title : ");
+        System.out.print("Enter the title : ");
         String title = scanner.nextLine();
 
-        System.out.println("Enter the price : ");
+        System.out.print("Enter the price : ");
         double price = scanner.nextDouble();
         scanner.nextLine();                             // Consume the leftover newline
 
-        System.out.println("Enter the description : ");
+        System.out.print("Enter the description : ");
         String description = scanner.nextLine();
 
-        System.out.println("Enter the category : ");
+        System.out.print("Enter the category : ");
         String category = scanner.nextLine();
 
         System.out.println("Product Details:");
