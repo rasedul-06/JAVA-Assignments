@@ -1,5 +1,10 @@
 package Assignment3;
-
+/*
+ * create a main method
+ * declare variables: id, title, price, description, category
+ * get user input for each variables
+ * print the variables
+ */
 import java.util.Scanner;
 
 public class Userinput {
