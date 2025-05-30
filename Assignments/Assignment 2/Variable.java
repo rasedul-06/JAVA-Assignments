@@ -1,5 +1,11 @@
 package Assignment2;
-//Variable and Data type
+/*
+ * create a main method
+ * declare variables: id, title, price, description, category
+ * assign the following data in main method
+   101,iphone15,1895 euros,perfect product with best image quality, phone,
+ * step 5: print the data
+ */
 public class Variable {
     public static void main(String[] args){
         int id;
